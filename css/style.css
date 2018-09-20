@@ -4,6 +4,7 @@
 	margin: 0 auto;
 }
 
+<<<<<<< HEAD
 /*-----phan hieu*/
 .khung .header{
 	width: 100%;
@@ -49,11 +50,53 @@
 #menu a:hover{
 	color: #6196ed;
 }
+=======
+>>>>>>> 58714e633cab8410c2ea992286570dc1357c272d
 
 
 
 /*/-----------phần hien----------------*/
+.vung{
+	width: 100%;
+	height: 250px;
+	background: url(../image/background.jpg);
+}
+.vung .h1{
+	width: 100%;
+	height: 80px;
+	/*background: red;*/
+}
+.h1 h1{
+	text-align: center;
+	text-decoration: none;
+	line-height: 130px;
+}
+.vung .contant{
 
+	width: 100%;
+	height: 70px;
+	/*background: green;*/
+}
+.contant p{
+	text-align: center;
+	font-size: 14px;
+}
+.vung .More{
+	width: 20%;
+	height:50px;
+	background: orange;
+	margin: 0 auto;
+}
+.More a{
+	text-align: center;
+	font-size: 25px;
+	line-height: 50px;
+	text-decoration: none;
+}
+.More a:hover{
+	color: white;
+
+}
 
 
 
