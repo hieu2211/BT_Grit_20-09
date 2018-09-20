@@ -50,16 +50,11 @@
 }
 /*/-----------phần hien----------------*/
 /*/phan luong--------------------------------*/
-<<<<<<< HEAD
-=======
-.square{
+.khung .square{
 	width: 100%;
 	height: 300px;
 	background:   #f2f2f2;
-
-	
 }
-
 .square .hop1{
 	/*margin-left: 2%;*/
 	float: left;
@@ -100,14 +95,6 @@
 	margin-right: 5%;	
 	margin-left: 5%;
 }
-
-
-
-
->>>>>>> cb339c93a52c22599e74a16a54c40fe29f11bd85
-/*/phan y------------------------------*/
-<<<<<<< HEAD
-=======
 .vung4{
 	width: 100%;
 	height: 400px;
@@ -172,11 +159,6 @@ p{
 	color: red; 
 }
 
-
-
-
-<<<<<<< HEAD
-=======
 /*/phan nhan------------------------------*/
 .khung .khuq{
 	width: 100%;
@@ -244,18 +226,8 @@ h3{
 .khuq .more:hover{
 	color:red;
 }
-
-
-
->>>>>>> 644c2eb64cc6605363686f08d0bb37df6d4d7a4c
-
-<<<<<<< HEAD
->>>>>>> 2c3155f034a2534a0e46df5371387f338760972b
-/*/phan nhan------------------------------*/
 /*/phan truong------------------------------*/
-=======
-/*/phan truong------------------------------*/
-.box{
+.khung .box{
 	width: 100%;
 	height: 270px;
 	background: gray;
@@ -379,4 +351,3 @@ h3{
 .picc p{
 	color: white;
 }
->>>>>>> 9ca2b7f9898fed069fb9f89a089ce53346e29237
