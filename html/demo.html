@@ -7,7 +7,31 @@
 <body>
 	<div class="khung">
 		<!------------------ phần hieu------------- --------->
-
+		<div class="header">
+				<a href="javascript:;"><img src="../image/logo.png"></a>
+			<div id="menu">
+				<a href="javascript:;" class="active">HOME</a>
+				<a href="javascript:;">ABOUT</a>
+				<a href="javascript:;">PORTFOLIO</a>
+				<a href="javascript:;">PRICING</a>
+				<a href="javascript:;">TEAM</a>
+				<a href="javascript:;">BLOG</a>
+				<a href="javascript:;">TESTIMONIAL</a>
+				<a href="javascript:;">CONTACT</a>
+				<a href="javascript:;">EXTRA</a>
+			</div>
+			<script>
+				var menu =document.getElementById("menu").children;
+				for (var i = 0; i < menu.length; i++) {
+					menu[i].onclick =function () {
+						var menuChild =this.parentElement.querySelectorAll(".active")
+						menuChild.forEach(element => element.classList.remove("active"));
+						this.classList.add("active");
+						console.log(menuChild)
+					}
+				}
+			</script>
+		</div>
 
 
 
