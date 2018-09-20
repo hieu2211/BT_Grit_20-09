@@ -25,6 +25,100 @@
 
 
 /*/phan nhan------------------------------*/
+css
+.khung{
+	height: 1500px;
+	background: silver;
+}
+
+
+
+
+/*/-----------ph?n hien----------------*/
+
+
+
+
+
+
+/*/phan luong--------------------------------*/
+
+
+
+
+
+/*/phan y------------------------------*/
+
+
+
+
+/*/phan nhan------------------------------*/
+.khung .khuq{
+	width: 100%;
+	height: 350px;
+	background: white;
+}
+.khuq .text h2{
+	width: 250px;
+	height: 20px;
+	margin: 0 auto;
+	color: #66CCFF;
+	padding-top: 25px;
+	font-family: Arial;
+}
+.khuq p{
+	text-align: center;
+	padding: 10px 200px;
+	color: white;
+	font-family: Arial;
+	/*background: red;*/
+	float: left;
+	display: block;
+	color: black;
+	font-size: 18px;
+}
+.khuq .box{
+	width: 19%;
+	height: 197px;
+	/*background: pink;*/
+	float: left;
+	margin-left: 5%;
+	display: block;
+	font-family: Arial;
+}
+h3{
+	color: #66CCFF;
+}
+.khuq .box .b1{
+	width: 100%;
+	height: 50px;
+	/*background: red;*/
+	float: left;
+}
+.khuq .box .b1 h3{
+	display: block;
+}
+.khuq .box h4{
+	font-size: 15px;
+}
+.khuq .more{
+	width: 75px;
+	height: 20px;
+	/*background: red;*/
+	float: right;
+	text-align: center;
+	margin: 0;
+	padding: 5px;
+	background: #66CCFF;
+	color: white;
+	border-radius: 5px;
+}
+.khuq .more:hover{
+	background: pink;
+}
+.khuq .more:hover{
+	color:red;
+}
 
 
 
